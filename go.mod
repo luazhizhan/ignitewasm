@@ -1,19 +1,26 @@
-module github.com/luazhizhan/todos/ignitewasm
+module github.com/luazhizhan/ignitewasm
 
 go 1.16
 
 require (
+	github.com/CosmWasm/wasmd v0.27.0
+	github.com/containerd/continuity v0.2.2 // indirect
 	github.com/cosmos/cosmos-sdk v0.45.4
-	github.com/cosmos/ibc-go/v2 v2.0.3
+	github.com/cosmos/ibc-go/v3 v3.0.0
+	github.com/google/btree v1.0.1 // indirect
 	github.com/google/go-cmp v0.5.8 // indirect
-	github.com/ignite-hq/cli v0.20.3
+	github.com/onsi/gomega v1.15.0 // indirect
+	github.com/opencontainers/runc v1.1.0 // indirect
+	github.com/prometheus/client_golang v1.12.1
+	github.com/rs/zerolog v1.26.1 // indirect
 	github.com/spf13/cast v1.4.1
 	github.com/stretchr/testify v1.7.1
-	github.com/tendermint/spn v0.2.1-0.20220511154430-aeab7a5b2bc0
+	github.com/tendermint/starport v0.19.5
 	github.com/tendermint/tendermint v0.34.19
 	github.com/tendermint/tm-db v0.6.7
 	google.golang.org/genproto v0.0.0-20220519153652-3a47de7e79bd // indirect
 	google.golang.org/grpc v1.46.2 // indirect
+	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
